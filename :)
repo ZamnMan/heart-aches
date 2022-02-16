@@ -1437,7 +1437,7 @@ end
 -------------------------------------------------------
 --Start Customization--
 -------------------------------------------------------
-local Player_Size = 1
+local Player_Size = 1.1
 if Player_Size ~= 1 then
 root.Size = root.Size * Player_Size
 tors.Size = tors.Size * Player_Size
@@ -1543,25 +1543,8 @@ RWeld.Part1 = hed
 RWeld.C0 = CF(0, 1.5, 0) * angles(0, 0, 0)
 hed.face:Remove()
 ----------------------------------------------------------------------------------
-PlayerGui = plr.PlayerGui
-local WEAPONGUI = IT("ScreenGui", PlayerGui)
-WEAPONGUI.Name = "Weapon GUI"
 
-local SKILLTEXTCOLOR = Color3.new(0,0,0)
-local SKILLFONT = "Antique"
-local SKILLTEXTSIZE = 6
 
-local SKILL1FRAME = CreateFrame(WEAPONGUI, 1, 2, UD2(0.8, 0, 0.90, 0), UD2(0.26, 0, 0.07, 0), Color3.new(0,0,0), Color3.new(0, 0, 0), "Skill 1 Frame")
-local SKILL2FRAME = CreateFrame(WEAPONGUI, 1, 2, UD2(0.8, 0, 0.86, 0), UD2(0.26, 0, 0.07, 0), Color3.new(0,0,0), Color3.new(0, 0, 0), "Skill 2 Frame")
-local SKILL3FRAME = CreateFrame(WEAPONGUI, 1, 2, UD2(0.8, 0, 0.82, 0), UD2(0.26, 0, 0.07, 0), Color3.new(0,0,0), Color3.new(0, 0, 0), "Skill 3 Frame")
-local SKILL4FRAME = CreateFrame(WEAPONGUI, 1, 2, UD2(0.8, 0, 0.78, 0), UD2(0.26, 0, 0.07, 0), Color3.new(0,0,0), Color3.new(0, 0, 0), "Skill 4 Frame")
-local SKILL5FRAME = CreateFrame(WEAPONGUI, 1, 2, UD2(0.8, 0, 0.74, 0), UD2(0.26, 0, 0.07, 0), Color3.new(0,0,0), Color3.new(0, 0, 0), "Skill 5 Frame")
-
-local SKILL1TEXT = CreateLabel(SKILL1FRAME, "[heart]", SKILLTEXTCOLOR, SKILLTEXTSIZE, SKILLFONT, 0, 2, 1, "Text 1")
-local SKILL2TEXT = CreateLabel(SKILL2FRAME, "[aches] Eruption", SKILLTEXTCOLOR, SKILLTEXTSIZE, SKILLFONT, 0, 2, 1, "Text 2")
---local SKILL3TEXT = CreateLabel(SKILL3FRAME, "[C] Chaos", SKILLTEXTCOLOR, SKILLTEXTSIZE, SKILLFONT, 0, 2, 1, "Text 3")
---local SKILL4TEXT = CreateLabel(SKILL4FRAME, "[V] Death's Wish", SKILLTEXTCOLOR, SKILLTEXTSIZE, SKILLFONT, 0, 2, 1, "Text 4")
---local SKILL5TEXT = CreateLabel(SKILL5FRAME, "[X] Shadows Whisper", SKILLTEXTCOLOR, SKILLTEXTSIZE, SKILLFONT, 0, 2, 1, "Text 5")
 -------------------------------------------------------
 --End Customization--
 -------------------------------------------------------
