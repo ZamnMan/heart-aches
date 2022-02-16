@@ -1471,7 +1471,7 @@ end
 local SONG = 6269292786
 local SONG2 = 0
 local Music = Instance.new("Sound",tors)
-Music.Volume = 2.5
+Music.Volume = 1.5
 Music.Looped = true
 Music.Pitch = 1 --Pitcher
 ----------------------------------------------------------------------------------
@@ -1489,7 +1489,7 @@ local HOLD = false
 local KEYHOLD = false
 ----------------------------------------------------------------------------------
 hum.WalkSpeed = 18
-hum.JumpPower = 130
+hum.JumpPower = 50
 hum.Animator.Parent = nil
 ----------------------------------------------------------------------------------
 local naeeym2 = IT("BillboardGui",char)
