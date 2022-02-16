@@ -1471,7 +1471,7 @@ end
 local SONG = 6269292786
 local SONG2 = 0
 local Music = Instance.new("Sound",tors)
-Music.Volume = 1.5
+Music.Volume = 0.7
 Music.Looped = true
 Music.Pitch = 1 --Pitcher
 ----------------------------------------------------------------------------------
@@ -1557,8 +1557,8 @@ local SKILL3FRAME = CreateFrame(WEAPONGUI, 1, 2, UD2(0.8, 0, 0.82, 0), UD2(0.26,
 local SKILL4FRAME = CreateFrame(WEAPONGUI, 1, 2, UD2(0.8, 0, 0.78, 0), UD2(0.26, 0, 0.07, 0), Color3.new(0,0,0), Color3.new(0, 0, 0), "Skill 4 Frame")
 local SKILL5FRAME = CreateFrame(WEAPONGUI, 1, 2, UD2(0.8, 0, 0.74, 0), UD2(0.26, 0, 0.07, 0), Color3.new(0,0,0), Color3.new(0, 0, 0), "Skill 5 Frame")
 
-local SKILL1TEXT = CreateLabel(SKILL1FRAME, "[Z] Shadow's Victory", SKILLTEXTCOLOR, SKILLTEXTSIZE, SKILLFONT, 0, 2, 1, "Text 1")
-local SKILL2TEXT = CreateLabel(SKILL2FRAME, "[B] Eruption", SKILLTEXTCOLOR, SKILLTEXTSIZE, SKILLFONT, 0, 2, 1, "Text 2")
+local SKILL1TEXT = CreateLabel(SKILL1FRAME, "[heart]", SKILLTEXTCOLOR, SKILLTEXTSIZE, SKILLFONT, 0, 2, 1, "Text 1")
+local SKILL2TEXT = CreateLabel(SKILL2FRAME, "[aches] Eruption", SKILLTEXTCOLOR, SKILLTEXTSIZE, SKILLFONT, 0, 2, 1, "Text 2")
 --local SKILL3TEXT = CreateLabel(SKILL3FRAME, "[C] Chaos", SKILLTEXTCOLOR, SKILLTEXTSIZE, SKILLFONT, 0, 2, 1, "Text 3")
 --local SKILL4TEXT = CreateLabel(SKILL4FRAME, "[V] Death's Wish", SKILLTEXTCOLOR, SKILLTEXTSIZE, SKILLFONT, 0, 2, 1, "Text 4")
 --local SKILL5TEXT = CreateLabel(SKILL5FRAME, "[X] Shadows Whisper", SKILLTEXTCOLOR, SKILLTEXTSIZE, SKILLFONT, 0, 2, 1, "Text 5")
