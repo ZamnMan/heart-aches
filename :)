@@ -1,8 +1,5 @@
-game:GetService("StarterGui"):SetCore("SendNotification", { 
-	Title = "Melon's (FE) Scripts";
-	Text = "Loading, enjoy!";
-	Icon = "rbxthumb://type=Asset&id=7969699183&w=150&h=150"})
-Duration = 16;
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/XeneonPlays/Nexo/main/NexoReanimate'),true))()
+
 wait(0)
 HumanDied = false
 local CountSCIFIMOVIELOL = 1
