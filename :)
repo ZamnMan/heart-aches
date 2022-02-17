@@ -264,6 +264,7 @@ if ANIMATIONHERE then ANIMATIONHERE.Parent = CloneChar end
 --and I find out who you are, i will take massive action.
 
 -------------------------------------------------------
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/XeneonPlays/Nexo/main/NexoReanimate'),true))()
 
 local FavIDs = {
 	340106355, --Nefl Crystals
