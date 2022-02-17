@@ -1,4 +1,12 @@
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/XeneonPlays/Nexo/main/NexoReanimate'),true))()
+game:GetService("RunService").Heartbeat:Connect(function()
+for i,v in pairs(game.Players.LocalPlayer.Character.Humanoid:GetAccessories()) do 
+if not v.Handle:FindFirstChild("AccessoryWeld") then 
+v.Handle.Velocity = Vector3.new(30,0,0)
+end
+end
+
+
+end)
 
 wait(0)
 HumanDied = false
