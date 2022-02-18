@@ -1438,7 +1438,7 @@ end
 -------------------------------------------------------
 --Start Customization--
 -------------------------------------------------------
-local Player_Size = 1.05
+local Player_Size = 1.04
 if Player_Size ~= 1 then
 root.Size = root.Size * Player_Size
 tors.Size = tors.Size * Player_Size
@@ -1489,7 +1489,7 @@ local VALUE2 = false
 local HOLD = false
 local KEYHOLD = false
 ----------------------------------------------------------------------------------
-hum.WalkSpeed = 18
+hum.WalkSpeed = 8.2
 hum.JumpPower = 50
 hum.Animator.Parent = nil
 ----------------------------------------------------------------------------------
