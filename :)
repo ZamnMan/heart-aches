@@ -1438,7 +1438,7 @@ end
 -------------------------------------------------------
 --Start Customization--
 -------------------------------------------------------
-local Player_Size = 1.04
+local Player_Size = 1.02
 if Player_Size ~= 1 then
 root.Size = root.Size * Player_Size
 tors.Size = tors.Size * Player_Size
