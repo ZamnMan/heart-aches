@@ -1478,7 +1478,7 @@ Music.Pitch = 1 --Pitcher
 ----------------------------------------------------------------------------------
 local equipped = false
 local idle = 0
-local change = 1
+local change = 1.05
 local val = 0
 local toim = 0
 local idleanim = 0.4
