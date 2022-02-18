@@ -1438,7 +1438,7 @@ end
 -------------------------------------------------------
 --Start Customization--
 -------------------------------------------------------
-local Player_Size = 1.02
+local Player_Size = 1.03
 if Player_Size ~= 1 then
 root.Size = root.Size * Player_Size
 tors.Size = tors.Size * Player_Size
@@ -1505,7 +1505,7 @@ local tecks2 = IT("TextLabel",naeeym2)
 tecks2.BackgroundTransparency = 1
 tecks2.TextScaled = true
 tecks2.BorderSizePixel = 0
-tecks2.Text = "𝓬𝓱𝓮𝓮𝓵"
+tecks2.Text = 'Cheel"
 tecks2.Font = "Antique"
 tecks2.TextSize = 30
 tecks2.TextStrokeTransparency = 0
